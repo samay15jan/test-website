@@ -1,0 +1,291 @@
+body {
+  margin: 0%;
+  background-color: #eae7e7;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.bar1_0 {
+  list-style-type: none;
+  margin: 0%;
+  padding:0%;
+  overflow: hidden;
+  background-color: #141921;  
+}
+  
+.bar1_1 {
+  float: left;
+  margin: 0% ;
+}
+ 
+.bar1_1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+  
+.bar1_1 a:hover {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.active {
+  text-align: left;
+}
+
+
+
+.bar2_0 {
+    list-style-type: none;
+    margin: 0%;
+    padding:0%;
+    overflow: hidden;
+    background-color: #283040;
+    height: 37px;
+    width: 100%;
+
+}
+
+.bar2_1 {
+  float: left;
+  margin: 0% ;
+}
+
+.bar2_1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 11px;
+  font-size: small;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+
+.bar2_1 a:hover {
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+.image1 {
+  height: 40px;
+}
+
+.image2 {
+  padding-top: 13px;
+  height: 20px;
+}
+
+.cart {
+  padding-top: 20px;
+}
+
+
+.text {
+    padding: 0%;
+}
+
+.search-box {
+  height: 35px;
+  width: 39.9%;
+  padding-left: 4.2%;
+  padding-right: 0%;
+  margin-right: 0%;
+  font-size: large;
+  margin: 1%; 
+}
+
+
+ 
+.searchbtn {   
+   background-color: #d8af72;
+  color: rgba(0, 0, 0, 0.609);
+  padding: 10px; 
+  margin-top: 12.5px;
+  margin-left: -40px;
+  font-size: 16px;
+  border: solid;
+  border-width: 1px;
+  position: absolute;
+}
+
+
+
+.dropbtn {
+    background-color: #eae7e7;
+    color: rgba(0, 0, 0, 0.609);
+    padding: 10px; 
+    font-size: 15px;
+    border: solid;
+    border-width: 1px;
+    margin-top: 13.5px;
+    }
+
+
+  .all-dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(28, 28, 28, 0.643);
+    min-width: 150px;
+    font-size: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(75, 75, 75, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(37, 133, 177);}
+  .all-dropdown:hover .dropdown-content {display: block;}
+  .all-dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  
+
+  .bg-slides {
+    height: 600px;
+    width: 100%;
+    border-style: none;
+
+  }
+
+  .leftbtn {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: transparent;
+}
+
+.rightbtn {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: transparent;
+    margin-left: 1265px;
+}
+  .bg-image {
+    width: 100%;
+    background-repeat: repeat;
+    
+}
+
+
+
+/* First row of columns */
+    .blocks-1 {
+      border: white ;
+      font-size: 22px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    .row {
+      padding: 25px;
+      margin: 10px;
+      background-color: white;
+      float: left;
+    }
+
+    .multiple {
+      padding: 7px;
+      margin: 8px;
+      background-color: white;
+      float: left;
+    }
+
+    .multiple1 {
+      color: black;
+      font-size: 13px;
+      float: left;
+      padding: 4px;
+      margin-top: 4px;
+    }
+    .signin {
+      width: 20%;
+      padding: 25px;
+      margin: 10px;
+      background-color: white;
+      float: left;
+    }
+
+    .signinbtn {
+      margin-top: 10px;
+      height: 30px;
+      width: 100%;
+      background-color: rgb(255, 217, 0);
+      border-radius: 6px;
+    }
+
+    .image3 {
+      height: 200px;
+      width: 270px;
+      float: left;
+      padding: 10px;
+      margin-left: 25px;
+    }
+
+
+
+/* second row of columns */
+.blocks-2 {
+  border: white ;
+  font-size: 22px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.row {
+  padding: 25px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+}
+
+.multiple {
+  padding: 7px;
+  margin: 8px;
+  background-color: white;
+  float: left;
+}
+
+.multiple1 {
+  color: black;
+  font-size: 13px;
+  float: left;
+  padding: 4px;
+  margin-top: 4px;
+}
+.signin {
+  width: 20%;
+  padding: 25px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+}
+
+.signinbtn {
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(255, 217, 0);
+  border-radius: 6px;
+}
+
+.image3 {
+  height: 200px;
+  width: 270px;
+  float: left;
+  padding: 10px;
+  margin-left: 25px;
+}
+
